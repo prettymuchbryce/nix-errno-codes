@@ -1,8 +1,6 @@
 # errno-codes
 
-Constants enumerating Linux errno.h error codes.
-
-All codes defined in [errno.h](http://man7.org/linux/man-pages/man3/errno.3.html) are supported.
+Constants enumerating Linux [errno.h](http://man7.org/linux/man-pages/man3/errno.3.html) error codes.
 
 Completely library agnostic. No dependencies.
 
