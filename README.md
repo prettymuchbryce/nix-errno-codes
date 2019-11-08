@@ -23,7 +23,7 @@ import {
 } from './index';
 
 try {
-  readdirSync('non-existent-file');
+  readdirSync('./non-existent-file.txt');
 } catch(error) {
   if (error.code === CODES.ENOENT) {
     console.error(getDescription(CODES.ENOENT)); // No such file or directory
