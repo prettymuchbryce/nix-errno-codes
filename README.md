@@ -7,7 +7,7 @@ Completely library agnostic. TypeScript-compatible. No dependencies.
 ## Installation
 
 ```console
-npm install errno-codes --save
+npm install nix-errno-codes --save
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ import {
 import {
   CODES,
   getDescription,
-} from './index';
+} from 'nix-errno-codes';
 
 try {
   readdirSync('./non-existent-file.txt');
