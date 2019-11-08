@@ -259,7 +259,7 @@ const descriptions = {
 };
 
 type Codes = typeof CODES;
-export type ErrNoCode = Extract<Codes[keyof Codes], number>;
+export type ErrNoCode = Extract<Codes[keyof Codes], string>;
 
 export function getDescription(code: ErrNoCode): string {
   return descriptions[code]; 
